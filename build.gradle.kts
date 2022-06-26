@@ -11,6 +11,7 @@ plugins {
 version = "0.1"
 group = "org.aliabdi"
 
+
 val kotlinVersion=project.properties.get("kotlinVersion")
 repositories {
     mavenCentral()
@@ -48,7 +49,7 @@ dependencies {
 
 
 application {
-    mainClass.set("org.aliabdi.ApplicationKt")
+    mainClass.set("org.aliabdi.Application")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")
